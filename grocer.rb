@@ -1,6 +1,6 @@
 def consolidate_cart(cart)
   hash ={}
-  array.each do |item|
+  cart.each do |item|
     if hash [item.keys[0]]
       hash[item.keys[0]] [:count] += 1
       else new_hash[item.keys[0]] = {
